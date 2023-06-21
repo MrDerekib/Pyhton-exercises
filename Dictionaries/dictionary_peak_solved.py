@@ -15,7 +15,7 @@ peak["height"] = 14265
 # Add a "Verizon" to the "cell_reception" dict and set it equal to "good"
 peak["cell_reception"]["Verizon"] = "good"
 # You just summited the peak! Add your name to the "summit_log" list
-peak["summit_log"] = "Joan Camps"
+peak["summit_log"].append("Joan Camps")
 
 # Let's rename "height" to "elevation":
 # Remove "height" from the dict and store the result in a variable.
